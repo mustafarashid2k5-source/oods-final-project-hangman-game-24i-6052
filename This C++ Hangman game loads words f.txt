@@ -1,0 +1,9 @@
+This C++ Hangman game loads words from a text file using fstream and randomly selects one for the player to guess.
+The word is hidden with blanks, and the player guesses letters within a limited number of attempts.I will attempt to make a hangman 
+using 2D arrays aswell if that is not to complex for my understanding.what is new is that in this hangman game there will be 3 new features
+one is hints, the other is cheats and the last but not the least is the visibility of previously guessed answers .
+A Queue is used for hint storage and hints are shown in order when requested, possibly costing an attempt.
+A Stack stores previous guesses for the cheat feature, allowing the player to undo or view the last guessed letter.
+All guessed letters correct and wrong are recorded and shown on the screen throughout the game.
+Incorrect guesses reduce remaining attempts, while correct guesses reveal letters in the word.The game tracks used letters so the player cannot repeat the same guess.The player wins by completing the word before attempts run out; otherwise, they lose.
+This project demonstrates file handling with fstream, and practical usage of stack and queue data structures.
